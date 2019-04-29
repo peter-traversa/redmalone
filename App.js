@@ -1,13 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import chess from './assets/chess.jpg'
+import { StyleSheet, View } from 'react-native';
+import Header from './src/Header';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image source={chess} />
-        <Text>redmalone says ciao, world!</Text>
+        <Header />
       </View>
     );
   }
