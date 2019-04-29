@@ -1,12 +1,16 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import Header from './src/Header';
+import Header from './src/components/Header';
+import Footer from './src/components/Footer';
+import Body from './src/pages/Body';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Header />
+        <Body />
+        <Footer />
       </View>
     );
   }
